@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+         <meta charset="utf-8"> 
+         <link rel="stylesheet" href="style.css">
+         <meta name="viewport" content="width=device-width"> 
+         <title>Survey-form</title>
+    </head> 
+    <body> 
+    
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill in the form to help us improve our platform</p>
+        
+    <form id="survey-form">
+        <label id="name-label">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name"required>
+        <label id="email-label">Email</label>
+            <input type="email" name="Email" id="email" placeholder="Enter your email" required>
+         <label id="number-label">Age<i> (optional)</i></label>
+            <input type="number" size="4" id="number" name="age" placeholder="Age" optional min="0" max="100" ><br>
+        
+            <h4>What is your current role here?</h4>
+            <div id="dropdown">
+                <select>
+                  <option value="">Please select an option</option>
+                  <option value="1">Student</option>
+                  <option value="2">Teacher</option>
+                  <option value="3">Parent</option>
+                  <option value="4">Department Staff</option>
+                </select>
+            </div>
+        
+            <h4>Question: Would you recommend this to a friend?</h4>
+                <div class="radio">
+                <input id="radio-2" name="attributes" type="radio" value="attribute">
+                <label  for="radio-2" class="radio-label">Definitely</label>
+                <input id="radio-2" name="attributes" type="radio" value="attribute">
+                <label  for="radio-2" class="radio-label">Maybe</label>
+                <input id="radio-2" name="attributes" type="radio" value="attribute">
+                <label  for="radio-2" class="radio-label">Not sure</label> 
+                </div>
+        
+            <h4>What is your favourite feature?</h4>
+            <div id="dropdown">
+                <select>
+                  <option value="">Please select an option</option>
+                  <option value="1">Challenges</option>
+                  <option value="2">Projects</option>
+                  <option value="3">Community</option>
+                  <option value="4">Open Source</option>
+                </select> 
+            </div>
+
+            What would you like to see improved? (Check all that apply)<br>
+            <input type="checkbox" id="1" name="par1" value="1">
+            Front-end Projects<br>
+            <input type="checkbox" id="1" name="par1" value="1">
+            Back-end Projects<br>
+            <input type="checkbox" id="1" name="par1" value="1">
+            Data Visualization<br>
+            <input type="checkbox" id="1" name="par1" value="1">
+            Challenges<br>
+            <input type="checkbox" id="1" name="par1" value="1">
+            Open Source Community<br>
+            <input type="checkbox" id="1" name="par1" value="1">
+            Gitter help rooms<br>
+            <input type="checkbox" id="1" name="par1" value="1">
+            Videos<br>
+            <input type="checkbox" id="1" name="par1" value="1">
+            City Meetups<br>
+            <input type="checkbox" id="1" name="par1" value="1">
+            Wiki<br>
+            <input type="checkbox" id="1" name="par1" value="1">
+            Forum<br>
+            <input type="checkbox" id="1" name="par1" value="1">
+            Additional Course<br>
+
+
+        
+            <h4>Comment on our performance</h4>
+            <textarea rows="6">Please fill in your thoughts here</textarea>
+            
+            <div id="submitAll">
+            <button id="submit" type="submit" href="/">Submit</button>
+            </div>
+        </form>
+        
+
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+        </script> <script src="js/index.js"></script> 
+    </body> 
+</html> 
