@@ -1,0 +1,103 @@
+#survey-form{
+    width: 400px;
+    height: 600px;
+    font-size: 16px;
+    background-color: blueviolet;
+    margin-left: 400px;
+    margin-top: 60px;
+    padding-left: 25px;
+
+
+;
+}
+#survey-form #input{
+    width:270px;
+    margin-bottom: 10px;
+    height:22px
+
+}
+#select{
+    width:200px;
+    font-size:16px;
+    
+
+}
+#1{
+    padding-left:0;
+}
+
+html, body {min-height: 100%;}
+      
+body, div, form, input, select { 
+      padding: 3px;
+      margin: 0;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 15px;
+      color: #fff;
+      line-height: 21px;}
+
+h1 {margin: 16px 0 5px;
+    font-weight: 500;
+    color:#fff;
+    text-align:center;}
+
+#description {font-weight: 400;
+    color:#fff;}
+
+h4 {margin: 21px 0 4px;
+    font-weight: 390;
+    color:#fff;
+    text-align:center;
+    font-style:italic;}
+
+form {width: 100%;
+      padding: 25px;
+      margin: 5px 5px 5px 5px;
+      background-color: #1b1b32;}
+
+input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      border: 1px solid #fff;
+      border-radius: 3px;
+      vertical-align: middle;}
+
+input:hover, textarea:hover, select:hover {border: 1px solid #fff;
+                                           background: #e6eef7;}
+
+select {padding: 7px 0;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        background: transparent;
+        width:100%;}
+
+option {background: #fff;}
+
+.radio {
+  display: inline-block;
+  align-items: left;}
+
+.radio-label {display: flex;
+              align-items: center;}
+
+textarea {width: calc(100% - 6px);}
+
+#submit {margin-top: 20px;
+         text-align: center;}
+
+button { width: 100%;
+      padding: 10px;
+      border-radius: 10px; 
+      background-color: #37af65;
+      font-size: 15px;
+      color: #fff;}
+
+button:hover { background-color: #37af65;}
+ 
+#dropdown option{color:#000;}
+
+body {
+  background: linear-gradient(to bottom, #4678F3, #64D6EE);
+  padding: 10px;
+}
+
